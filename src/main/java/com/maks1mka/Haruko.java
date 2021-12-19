@@ -11,7 +11,7 @@ import net.dv8tion.jda.api.utils.cache.CacheFlag;
 public class Haruko {
 
     public static void main(String[] args) throws Exception {
-        String token = "ODgyNzA0NTQ2MTkzODc5MTMw.YS_Qqw.IrP5iPxo1fY4xmxVh-bACz-8vw0";
+        String token = "token";
 
         JDABuilder api = JDABuilder.createDefault(token);
         api.enableIntents(
