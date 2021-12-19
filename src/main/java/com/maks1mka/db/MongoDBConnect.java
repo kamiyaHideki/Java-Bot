@@ -9,7 +9,7 @@ import com.mongodb.client.MongoDatabase;
 
 public class MongoDBConnect {
     private final String passDb = "password";
-    private final ConnectionString connectionString = new ConnectionString("mongodb+srv://dbAdmin:" + passDb + "@solution2.wrckl.mongodb.net/solution?retryWrites=true&w=majority");
+    private final ConnectionString connectionString = new ConnectionString("mongodb+srv://dbAdmin:" + passDb + "@database.wrckl.mongodb.net/solution?retryWrites=true&w=majority");
     private final MongoClientSettings settings = MongoClientSettings.builder()
             .applyConnectionString(connectionString)
             .build();
