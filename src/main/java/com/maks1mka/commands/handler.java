@@ -11,7 +11,7 @@ import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
 
-public class handler {
+public class Handler {
     static JDA jda;
     public static void preInit(JDABuilder api) {
         api.setActivity(Activity.playing(Command.getPrefix() + "help | " + Command.getVersion()));
